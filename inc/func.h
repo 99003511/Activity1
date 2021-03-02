@@ -5,7 +5,7 @@ int prime(int n);
 int fact(int n);
 int checkpalindrome(int num);
 int add(int number ...);
-
+gt
 
 
 #endif // FUNC_H_INCLUDED
