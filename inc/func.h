@@ -7,4 +7,5 @@ int checkpalindrome(int num);
 int add(int number ...);
 
 
+
 #endif // FUNC_H_INCLUDED
