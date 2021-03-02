@@ -1,4 +1,4 @@
-#include"bit.h"
+#include"bits.h"
 
 // Function to set the kth bit of s 
 
