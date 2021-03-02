@@ -23,15 +23,15 @@ int fact(int n)
     return fact;
 }
 
-int checkpalindrome(int number)
+int checkpalindrome(int num)
 {
     int temp, remainder, sum = 0;
-    temp = number;
-    while(number!=0)
+    temp = num;
+    while(num!=0)
     {
-        remainder = number % 10;
+        remainder = num % 10;
         sum = sum*10 + remainder;
-        number/=10;
+        num/=10;
     }
     if(sum==temp)
         return 1;
@@ -39,14 +39,14 @@ int checkpalindrome(int number)
         return 0;
 }
 
-int addition(int num, ...) 
+int add(int number, ...) 
 { 
     va_list valist; 
   
     int sum = 0, i; 
   
-    va_start(valist, num); 
-    for (i = 0; i < num; i++)  
+    va_start(valist, number); 
+    for (i = 0; i < number; i++)  
         sum += va_arg(valist, int); 
   
     va_end(valist); 

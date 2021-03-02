@@ -12,6 +12,7 @@ int mystrlen(char* s1)
     int l;
     l=strlen(s1);
      return l;
+     
      //printf("%d\n",l);
 }
 char *mystrcpy(char* s1)

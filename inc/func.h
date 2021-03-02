@@ -1,10 +1,10 @@
-#ifndef UTIL_H_INCLUDED
-#define UTIL_H_INCLUDED
+#ifndef FUNC_H_INCLUDED
+#define FUNC_H_INCLUDED
 
 int prime(int n);
 int fact(int n);
-int checkpalindrome(int number);
-int addition(int num, ...);
+int checkpalindrome(int num);
+int add(int number ...);
 
 
-#endif // UTIL_H_INCLUDED
+#endif // FUNC_H_INCLUDED
