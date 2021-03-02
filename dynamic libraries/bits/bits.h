@@ -5,7 +5,3 @@
     int toggleBit(int s, int k); 
     int query(int s,int k);
 #endif
-
-
-
-
